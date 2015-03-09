@@ -1,0 +1,33 @@
+body {
+	background-color: #fff;
+}
+
+h1 {
+	font-size: 300px;
+	font-family: 'Titillium Web', sans-serif;
+	color: rgb(39,44,168);
+	text-shadow:
+   -5px -5px 0 rgb(180,18,19),  
+    5px -5px 0 rgb(180,18,19),
+    -5px 5px 0 rgb(180,18,19),
+     5px 5px 0 rgb(180,18,19);
+    margin-top: -150px;
+    margin-bottom: 0px;
+}
+h3 {
+	font-size: 50px;
+	font-family: 'Titillium Web', sans-serif;
+	color: rgb(39,44,168);
+	text-shadow:
+   -3px -3px 0 rgb(180,18,19),  
+    3px -3px 0 rgb(180,18,19),
+    -3px 3px 0 rgb(180,18,19),
+     3px 3px 0 rgb(180,18,19);
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+
+.container {
+	text-align: center;
+	vertical-align: middle;
+}

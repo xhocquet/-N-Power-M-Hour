@@ -1,0 +1,15 @@
+<html>
+<head><meta charset="UTF-8"><title>JSRunner</title><link rel="stylesheet" type="text/css" href="style.css"><link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,900' rel='stylesheet' type='text/css'></head>
+<body>
+<audio id="audiotag1" src="shots.wav" preload="auto"></audio>
+<div class="container">
+<h3 id="numShots">Shots Taken: 0</h3><br />
+<h1 id="time">0s</h1><br />
+<input type="text" id="totalTimeInput" placeholder="Total Time (s)" />
+<input type="text" id="timePerShotInput" placeholder="Time per Shot (s)" />
+<button type="button" onclick="init()">Start</button>
+<button type="button" onclick="stop()">Stop</button>
+</div>
+</body>
+<script src="PowerHour.js"></script>
+</html>
